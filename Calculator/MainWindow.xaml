@@ -1,0 +1,33 @@
+﻿<Window x:Class="Calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Calculator" Height="415" Width="310" WindowStartupLocation="CenterScreen" Opacity="1.5" ResizeMode="NoResize">
+    <Grid>
+        <Button Name="btn_0" Content="0" FontSize="25" HorizontalAlignment="Left" Margin="20,320,0,0" VerticalAlignment="Top" Width="120" Height="50" RenderTransformOrigin="0.321,1.671" Click="btn_0_Click"/>
+        <Button Name="comma" Content="," FontSize="25" HorizontalAlignment="Left" Margin="160,320,0,0" VerticalAlignment="Top" Width="50" Height="50" RenderTransformOrigin="0.321,1.671" Click="comma_Click"/>
+        <Button Name="calc" Content="=" FontSize="25" HorizontalAlignment="Left" Margin="230,320,0,0" VerticalAlignment="Top" Width="50" Height="50" RenderTransformOrigin="0.321,1.671" Click="calc_Click" IsEnabled="False"/>
+        
+        <Button Name="btn_1" Content="1" FontSize="25" HorizontalAlignment="Left" Margin="20,260,0,0" VerticalAlignment="Top" Width="50" Height="50" RenderTransformOrigin="0.321,1.671" Click="btn_1_Click"/>
+        <Button Name="btn_2" Content="2" FontSize="25" HorizontalAlignment="Left" Margin="90,260,0,0" VerticalAlignment="Top" Width="50" Height="50" RenderTransformOrigin="0.321,1.671" Click="btn_2_Click"/>
+        <Button Name="btn_3" Content="3" FontSize="25" HorizontalAlignment="Left" Margin="160,260,0,0" VerticalAlignment="Top" Width="50" Height="50" RenderTransformOrigin="0.321,1.671" Click="btn_3_Click"/>
+        <Button Name="add" Content="+" FontSize="25" HorizontalAlignment="Left" Margin="230,260,0,0" VerticalAlignment="Top" Width="50" Height="50" RenderTransformOrigin="0.321,1.671" Click="add_Click"/>
+
+        <Button Name="btn_4" Content="4" FontSize="25" HorizontalAlignment="Left" Margin="20,200,0,0" VerticalAlignment="Top" Width="50" Height="50" RenderTransformOrigin="0.321,1.671" Click="btn_4_Click"/>
+        <Button Name="btn_5" Content="5" FontSize="25" HorizontalAlignment="Left" Margin="90,200,0,0" VerticalAlignment="Top" Width="50" Height="50" RenderTransformOrigin="0.321,1.671" Click="btn_5_Click"/>
+        <Button Name="btn_6" Content="6" FontSize="25" HorizontalAlignment="Left" Margin="160,200,0,0" VerticalAlignment="Top" Width="50" Height="50" RenderTransformOrigin="0.321,1.671" Click="btn_6_Click"/>
+        <Button Name="subtract" Content="-" FontSize="25" HorizontalAlignment="Left" Margin="230,200,0,0" VerticalAlignment="Top" Width="50" Height="50" RenderTransformOrigin="0.321,1.671" Click="subtract_Click"/>
+        
+        <Button Name="btn_7" Content="7" FontSize="25" HorizontalAlignment="Left" Margin="20,140,0,0" VerticalAlignment="Top" Width="50" Height="50" RenderTransformOrigin="0.321,1.671" Click="btn_7_Click"/>
+        <Button Name="btn_8" Content="8" FontSize="25" HorizontalAlignment="Left" Margin="90,140,0,0" VerticalAlignment="Top" Width="50" Height="50" RenderTransformOrigin="0.321,1.671" Click="btn_8_Click"/>
+        <Button Name="btn_9" Content="9" FontSize="25" HorizontalAlignment="Left" Margin="160,140,0,0" VerticalAlignment="Top" Width="50" Height="50" RenderTransformOrigin="0.321,1.671" Click="btn_9_Click"/>
+        <Button Name="mult" Content="*" FontSize="25" HorizontalAlignment="Left" Margin="230,140,0,0" VerticalAlignment="Top" Width="50" Height="50" RenderTransformOrigin="0.321,1.671" Click="mult_Click"/>
+
+        <Button Name="clean" Content="Clean" FontSize="15" HorizontalAlignment="Left" Margin="20,80,0,0" VerticalAlignment="Top" Width="50" Height="50" RenderTransformOrigin="0.321,1.671" Click="clean_Click"/>
+        <Button Name="clear" Content="Backspace" FontSize="20" HorizontalAlignment="Left" Margin="90,78,0,0" VerticalAlignment="Top" Width="120" Height="50" RenderTransformOrigin="0.321,1.671" Click="clear_Click"/>
+        <Button Name="div" Content="/" FontSize="25" HorizontalAlignment="Left" Margin="230,80,0,0" VerticalAlignment="Top" Width="50" Height="50" RenderTransformOrigin="0.321,1.671" Click="div_Click"/>
+        
+        <Label Name="calc_label" Content="" FontSize="25" HorizontalAlignment="Left" Margin="20,10,0,0" VerticalAlignment="Top" Background="WhiteSmoke" Height="50" Width="260"/>
+
+        
+    </Grid>
+</Window>
